@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.edge-pdf-preview/
+catalog-check.png
+edge-dom.txt
+
+collections_*.html
+tmp-*.html
+tmp-*.js

@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LV Office | Catálogo de Escritório</title>
+  <meta
+    name="description"
+    content="Catálogo digital da LV Office com linhas de mesas, cadeiras, móveis em MDF, aço e soluções escolares."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header reveal">
+      <a class="brand" href="#" aria-label="Ir para o início do catálogo">
+        <img src="assets/lv-office.png" alt="Logo LV Office">
+        <div class="brand-copy">
+          <span>LV Office</span>
+          <small>Presença e funcionalidade para o seu espaço</small>
+        </div>
+      </a>
+
+      <div class="header-badge">
+        Design que organiza. Presença que vende.
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Elegância em movimento</p>
+          <h1>
+            Um catálogo de escritório moderno, navegável e pronto para apresentar
+            toda a linha da LV Office com mais clareza.
+          </h1>
+          <p class="hero-text">
+            Linhas marcantes, navegação fluida e uma vitrine pensada para
+            transformar cada coleção em desejo de compra.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-action" href="#catalogo">Explorar catálogo</a>
+            <button class="secondary-action" id="heroFeaturedButton" type="button">
+              Veja a peça que dita o tom
+            </button>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat-card">
+              <strong id="totalProducts">0</strong>
+              <span>curadoria que valoriza cada ambiente</span>
+            </article>
+            <article class="stat-card">
+              <strong id="totalCategories">0</strong>
+              <span>linhas com assinatura, função e presença</span>
+            </article>
+            <article class="stat-card">
+              <strong id="totalSections">0</strong>
+              <span>navegação pensada para vender melhor</span>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="hero-panel-head">
+            <span class="panel-kicker">Navegação inteligente</span>
+            <h2>Seu catálogo com presença, ritmo e sofisticação</h2>
+          </div>
+
+          <div class="hero-panel-body">
+            <div class="signal-card">
+              <span class="signal-label">Essência</span>
+              <strong>Organizar bem o espaço é valorizar a marca na primeira vista.</strong>
+            </div>
+            <div class="signal-card">
+              <span class="signal-label">Presença</span>
+              <strong>Cada peça certa muda a leitura do ambiente e eleva a percepção do cliente.</strong>
+            </div>
+            <div class="signal-card">
+              <span class="signal-label">Impacto</span>
+              <strong>Seu catálogo precisa parecer tão forte quanto a experiência que você entrega.</strong>
+            </div>
+          </div>
+
+          <div class="hero-panel-footer" id="categoryHighlights"></div>
+        </aside>
+      </section>
+
+      <section class="catalog-controls reveal" id="catalogo">
+        <div class="controls-topbar">
+          <div class="page-tabs" aria-label="Atalhos da página">
+            <a class="page-tab is-active" href="#catalogo">Catálogo</a>
+            <a class="page-tab" href="#contato">Contato</a>
+          </div>
+
+          <button class="catalog-toggle" id="catalogToggle" type="button" aria-expanded="true">
+            Recolher filtros
+          </button>
+        </div>
+
+        <div class="tabs" id="tabs" aria-label="Categorias do catálogo"></div>
+
+        <div class="controls-bar">
+          <label class="search-field" for="searchInput">
+            <span>Buscar por nome, código, material ou observação</span>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="Ex.: roupeiro, gavetas, MDP, reunião..."
+              autocomplete="off"
+            >
+          </label>
+
+          <div class="chips" id="featureChips" aria-label="Filtros rápidos"></div>
+        </div>
+      </section>
+      <div class="catalog-controls-spacer" id="catalogControlsSpacer" aria-hidden="true"></div>
+
+      <section class="catalog-area">
+        <div class="catalog-intro reveal">
+          <div>
+            <p class="eyebrow">Catálogo LV Office</p>
+            <h2 id="activeHeading">Todos os produtos</h2>
+          </div>
+          <p class="catalog-summary" id="catalogSummary">
+            Navegue pelas categorias, refine pela busca e clique em cada peça
+            para ver dimensões, materiais, acessórios, composições e observações.
+          </p>
+        </div>
+
+        <div class="section-list" id="sectionList"></div>
+      </section>
+
+      <section class="contact-section reveal" id="contato">
+        <div class="contact-copy">
+          <p class="eyebrow">Contato</p>
+          <h2>Fale com a LV Office</h2>
+          <p class="catalog-summary">
+            Um espaço direto para orçamento, atendimento comercial e envio de
+            pedidos.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a
+            class="contact-card"
+            href="https://wa.me/5581988049821"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abrir WhatsApp da LV Office"
+          >
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M20 12.05a8 8 0 0 1-11.76 7.08L4 20l.92-4.03A8 8 0 1 1 20 12.05Z"></path>
+                <path d="M9.45 8.8c-.22-.49-.45-.5-.66-.5-.17 0-.36 0-.55 0a1.06 1.06 0 0 0-.76.36 3.28 3.28 0 0 0-1.02 2.44c0 1.43 1.05 2.82 1.2 3.02.15.2 2.08 3.34 5.13 4.53 2.53.99 3.05.8 3.6.75.55-.05 1.78-.73 2.03-1.44.25-.71.25-1.31.18-1.44-.08-.13-.27-.2-.56-.35-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.66.15-.2.3-.76.98-.93 1.18-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.48-.88-.78-1.48-1.74-1.65-2.04-.17-.3-.02-.46.13-.61.13-.13.3-.34.44-.51.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.63-.94-2.21Z"></path>
+              </svg>
+            </span>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>(81) 9.8804-9821</p>
+            </div>
+          </a>
+
+          <a
+            class="contact-card"
+            href="https://www.instagram.com/lvoffice_moveis/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abrir Instagram da LV Office"
+          >
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"></rect>
+                <circle cx="12" cy="12" r="4.2"></circle>
+                <circle cx="17.3" cy="6.8" r="1.2" class="fill-icon"></circle>
+              </svg>
+            </span>
+            <div>
+              <strong>Instagram</strong>
+              <p>@lvoffice_moveis</p>
+            </div>
+          </a>
+
+          <a
+            class="contact-card"
+            href="mailto:Vendaslvoffice@gmail.com"
+            aria-label="Enviar email para a LV Office"
+          >
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M4 6.5h16v11H4z"></path>
+                <path d="m5 7 7 5 7-5"></path>
+              </svg>
+            </span>
+            <div>
+              <strong>Email</strong>
+              <p>Vendaslvoffice@gmail.com</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <div>
+        <strong>LV Office</strong>
+        <p>
+          Presença que organiza, design que permanece.
+        </p>
+      </div>
+
+      <p class="footer-note">
+        Um catálogo pensado para destacar valor, elevar percepção e fortalecer
+        a experiência da sua marca.
+      </p>
+    </footer>
+  </div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="product-drawer" id="productDrawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow" id="drawerEyebrow">Ficha técnica</p>
+        <h3 id="drawerTitle">Produto</h3>
+        <p class="drawer-subtitle" id="drawerSubtitle"></p>
+      </div>
+      <button class="drawer-close" id="drawerClose" type="button" aria-label="Fechar ficha técnica">
+        ×
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <div class="drawer-media" id="drawerMedia" hidden>
+        <img id="drawerImage" alt="">
+      </div>
+      <p class="drawer-description" id="drawerDescription"></p>
+      <div class="drawer-specs" id="drawerSpecs"></div>
+      <div class="drawer-groups" id="drawerGroups"></div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
