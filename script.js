@@ -4221,14 +4221,25 @@ const SITE_PRODUCT_MEDIA = {
   "calha-passa-fios-80cm": "https://angelismoveis.com/wp-content/uploads/2025/09/calha-passa-fios-80cm-410x492.jpg",
   "lixeira-slim": "https://angelismoveis.com/wp-content/uploads/2025/09/lixeira-slim-nogal-410x492.jpg",
   "suporte-de-cpu-e-nobreack": "https://angelismoveis.com/wp-content/uploads/2025/09/suporte-de-cpu-e-nobreack-slim-nogal-410x492.jpg",
+  "suporte-de-teclado": "https://angelismoveis.com/wp-content/uploads/2025/09/suporte-de-teclado-slim-nogal.jpg",
+  "suporte-de-teclado-para-mesa-happy": "https://angelismoveis.com/wp-content/uploads/2025/09/suporte-de-teclado-para-mesa-happy-nogal.jpg",
   "kit-armario-alto-slim-15mm": "https://angelismoveis.com/wp-content/uploads/2025/09/armario-alto-slim-15mm-nogal-410x492.jpg",
+  "kit-armario-semi-aberto-slim-15mm": "https://angelismoveis.com/wp-content/uploads/2025/09/armario-semi-aberto-slim-15mm-nogal.jpg",
+  "kit-armario-baixo-slim-15mm": "https://angelismoveis.com/wp-content/uploads/2025/09/armario-baixo-slim-15mm-nogal.jpg",
   "arquivo-pasta-suspensa-4-gavetoes-slim": "https://angelismoveis.com/wp-content/uploads/2025/09/arquivo-pasta-suspensa-4-gavetas-slim-nogal-410x492.jpg",
+  "armario-baixo-pratika-30mm": "https://angelismoveis.com/wp-content/uploads/2025/09/armario-baixo-pratika-30mm-80-x-45-x-75-nogal.jpg",
   "gaveteiro-volante-4-gavetas-30mm": "https://angelismoveis.com/wp-content/uploads/2025/09/gaveteiro-volante-4-gavetas-30mm-slim-nogal-410x492.jpg",
   "gaveteiro-volante-misto-30mm": "https://angelismoveis.com/wp-content/uploads/2025/09/gaveteiro-volante-misto-30mm-slim-nogal-410x492.jpg",
   "gaveteiro-fixo-slim-3-gaveta": "https://angelismoveis.com/wp-content/uploads/2025/09/gaveteiro-fixo-slim-3-gaveta-nogal-410x492.jpg",
   "gaveteiro-fixo-slim-2-gaveta": "https://angelismoveis.com/wp-content/uploads/2025/09/gaveteiro-fixo-slim-2-gaveta-nogal-410x492.jpg",
   "gaveteiro-fixo-slim-1-gaveta": "https://angelismoveis.com/wp-content/uploads/2025/09/gaveteiro-fixo-slim-1-gaveta-nogal-410x492.jpg",
   "conexao-angular-15mm": "https://angelismoveis.com/wp-content/uploads/2025/09/conexao-angular-15mm-nogal-410x492.jpg",
+  "kit-mesa-reuniao-redonda-30mm-happy-tampo-engrossado": "https://angelismoveis.com/wp-content/uploads/2025/08/mesa-reuniao-redonda-25mm-happy-1200mm-nogal.jpg",
+  "kit-mesa-redonda-eiffel-engrossado-30mm": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-redonda-eiffel-90-engrossado-30mm-preto.jpg",
+  "kit-mesa-de-apoio-happy-30mm-com-gaveteiro-misto-com-armario": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-armario-misto-nogal.jpg",
+  "kit-mesa-de-apoio-happy-30mm-com-gaveteiro-4-gavetas": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-gaveteiro-4-gavetas-nogal.jpg",
+  "kit-mesa-de-apoio-happy-30mm-com-gaveteiro-misto": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-gaveteiro-misto-nogal.jpg",
+  "kit-mesa-de-apoio-happy-30mm-com-pe-de-ferro": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-o-pe-de-ferro-nogal.jpg",
   "kit-mesa-wood-15mm": "https://angelismoveis.com/wp-content/uploads/2026/03/mesa-wood-15mm-150-x-60-x-75-nogal-410x492.jpg",
   "kit-mesa-slim-15mm": "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-slim-15mm-150-x-60-x-75-nogal-410x492.jpg"
 };
@@ -4240,13 +4251,27 @@ const REFERENCE_PRODUCT_MEDIA = {
   compactDesk: SITE_PRODUCT_MEDIA["kit-mesa-small-multiuso-15mm"],
   attachedDesk: SITE_PRODUCT_MEDIA["kit-mesa-small-acoplada-15mm"],
   gamerDesk: SITE_PRODUCT_MEDIA["kit-mesa-gamer-engrossada-30mm"],
+  keyboardTray: SITE_PRODUCT_MEDIA["suporte-de-teclado"] || SITE_PRODUCT_MEDIA["suporte-de-teclado-para-mesa-happy"],
   drawer2: SITE_PRODUCT_MEDIA["gaveteiro-fixo-pratika-corredica-telescopica-2-gaveta"],
+  drawer2Slim: SITE_PRODUCT_MEDIA["gaveteiro-fixo-slim-2-gaveta"],
   drawer3: SITE_PRODUCT_MEDIA["gaveteiro-fixo-pratika-corredica-telescopica-3-gaveta"],
   drawer4: SITE_PRODUCT_MEDIA["gaveteiro-volante-4-gavetas-30mm-pratika"],
   drawerMixed: SITE_PRODUCT_MEDIA["gaveteiro-volante-misto-30mm-pratika"],
+  drawerMixedSlim: SITE_PRODUCT_MEDIA["gaveteiro-volante-misto-30mm"],
+  straightDeskPratika: SITE_PRODUCT_MEDIA["kit-mesa-pratika-pe-painel-25mm"],
+  supportDeskCabinet: SITE_PRODUCT_MEDIA["mesa-de-apoio-pratika-25mm-com-armario-misto"],
+  supportDeskDrawer: SITE_PRODUCT_MEDIA["mesa-de-apoio-pratika-25mm-com-gaveteiro-4-gavetas"],
+  supportDeskMixed: SITE_PRODUCT_MEDIA["mesa-de-apoio-pratika-25mm-com-gaveteiro-misto"],
+  supportDeskMetal: SITE_PRODUCT_MEDIA["kit-mesa-de-apoio-happy-30mm-com-pe-de-ferro"],
+  supportDeskHappyCabinet: SITE_PRODUCT_MEDIA["kit-mesa-de-apoio-happy-30mm-com-gaveteiro-misto-com-armario"],
+  supportDeskHappyDrawer: SITE_PRODUCT_MEDIA["kit-mesa-de-apoio-happy-30mm-com-gaveteiro-4-gavetas"],
+  supportDeskHappyMixed: SITE_PRODUCT_MEDIA["kit-mesa-de-apoio-happy-30mm-com-gaveteiro-misto"],
   connection: SITE_PRODUCT_MEDIA["conexao-pratika-quadrada-25mm"],
+  connectionAngled: SITE_PRODUCT_MEDIA["conexao-angular-15mm"],
+  connectionHappy: SITE_PRODUCT_MEDIA["kit-conexao-happy-quadrada-30mm"],
   power: SITE_PRODUCT_MEDIA["torre-retratil-3-tomadas"],
   cpuSupport: SITE_PRODUCT_MEDIA["suporte-cpu-suspenso"],
+  cpuSupportFloor: SITE_PRODUCT_MEDIA["suporte-de-cpu-e-nobreack"],
   cableTray: SITE_PRODUCT_MEDIA["calha-passa-fios-80cm"],
   divider: SITE_PRODUCT_MEDIA["divisoria-pratika-frontal"],
   fixedChair: SITE_PRODUCT_MEDIA["kit-cadeira-hall-fixa"],
@@ -4262,9 +4287,36 @@ const REFERENCE_PRODUCT_MEDIA = {
   stool: SITE_PRODUCT_MEDIA["kit-banqueta-clip"],
   shelf: SITE_PRODUCT_MEDIA["kit-estante-light"],
   lowCabinet: SITE_PRODUCT_MEDIA["armario-balcao-pratika-30mm"],
+  lowCabinetExact: SITE_PRODUCT_MEDIA["armario-baixo-pratika-30mm"] || SITE_PRODUCT_MEDIA["kit-armario-baixo-slim-15mm"],
   mediumCabinet: SITE_PRODUCT_MEDIA["armario-medio-pratika-30mm"],
+  semiOpenCabinet: SITE_PRODUCT_MEDIA["kit-armario-semi-aberto-slim-15mm"],
   tallCabinet: SITE_PRODUCT_MEDIA["kit-armario-alto-slim-15mm"],
+  tallCabinetExact: SITE_PRODUCT_MEDIA["armario-alto-multiuso-pratika-30mm"] || SITE_PRODUCT_MEDIA["kit-armario-alto-slim-15mm"],
   fileCabinet: SITE_PRODUCT_MEDIA["arquivo-pasta-suspensa-4-gavetoes-30mm-pratika"],
+  fileCabinetSlim: SITE_PRODUCT_MEDIA["arquivo-pasta-suspensa-4-gavetoes-slim"],
+  cabinetSuperTall: SITE_PRODUCT_MEDIA["armario-super-alto-multiuso-pratika-30mm"],
+  drawer4Slim: SITE_PRODUCT_MEDIA["gaveteiro-volante-4-gavetas-30mm"],
+  drawerEconomy: SITE_PRODUCT_MEDIA["gaveteiro-economico-happy-com-4-gavetas"],
+  lDeskSlim: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-l-slim-15mm-140-x-140-x-60-75-nogal.jpg",
+  lDeskWood: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-l-wood-15mm-140-x-140-x-60-75-nogal.jpg",
+  happyDesk30: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-happy-30mm-135-x-60-x-75-nogal.jpg",
+  lightDesk15: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-light-15mm-90-x-52-x-75-nogal.jpg",
+  happySupportDrawer:
+    "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-gaveteiro-4-gavetas-nogal.jpg",
+  happySupportMixed:
+    "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-de-apoio-happy-30mm-90-x-45-com-gaveteiro-misto-nogal.jpg",
+  meetingRound15: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-reuniao-redonda-15mm-120-nogal.jpg",
+  meetingRoundHappy: SITE_PRODUCT_MEDIA["kit-mesa-reuniao-redonda-30mm-happy-tampo-engrossado"],
+  meetingRoundEiffel: SITE_PRODUCT_MEDIA["kit-mesa-redonda-eiffel-engrossado-30mm"],
+  meetingRoundPratika:
+    "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-redonda-pratika-pe-painel-25mm-120-nogal.jpg",
+  meetingRect15: "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-reuniao-retangular-15mm-200-x-90-nogal.jpg",
+  meetingRectPanel:
+    "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-reuniao-retangular-15mm-pe-painel-200-x-90-nogal.jpg",
+  meetingRectHappy:
+    "https://angelismoveis.com/wp-content/uploads/2025/09/mesa-reuniao-retangular-happy-30mm-engrossado-260-x-120-nogal.jpg",
+  meetingRectPratika:
+    "https://angelismoveis.com/wp-content/uploads/2026/03/mesa-reuniao-retangular-pratika-25mm-260-x-120-x-75-nogal.jpg",
   metalLocker:
     "https://images.tcdn.com.br/img/img_prod/556092/armario_roupeiro_de_aco_guarda_volume_locker_vestiario_08_portas_pequenas_montavel_2003_1_20191007043805.png",
   locker2Large:
@@ -4303,6 +4355,76 @@ const REFERENCE_PRODUCT_MEDIA = {
   kidneyTable: "https://cdn.awsli.com.br/800x800/405/405408/produto/218400413/78-q9jk0drjoh.jpeg",
   cloverTable: "https://escolar.torresmoveis.com/wp-content/uploads/2022/11/formacao-sextavada-Torres-Zazu.jpg",
   toyChest: "https://fundamentalbrinquedos.com.br/wp-content/uploads/2019/06/1063.jpg"
+};
+
+const PDF_PRODUCT_MEDIA = {
+  "cadeira-fixa": "assets/products/pdf-chairs/cadeira-fixa.jpg",
+  "cadeira-fixa-iso": "assets/products/pdf-chairs/cadeira-fixa-iso.jpg",
+  "cadeira-secretaria": "assets/products/pdf-chairs/cadeira-secretaria.jpg",
+  "cadeira-office": "assets/products/pdf-chairs/cadeira-office.jpg",
+  "cadeira-plus": "assets/products/pdf-chairs/cadeira-plus.jpg",
+  "cadeira-pp": "assets/products/pdf-chairs/cadeira-pp.jpg",
+  "cadeira-presidente": "assets/products/pdf-chairs/cadeira-presidente-tela.jpg",
+  "cadeira-diretor": "assets/products/pdf-chairs/cadeira-diretor-vazada.jpg",
+  "cadeira-executiva": "assets/products/pdf-chairs/cadeira-executiva-tela.jpg",
+  "cadeira-confort": "assets/products/pdf-chairs/cadeira-confort.jpg",
+  "cadeira-executiva-alta": "assets/products/pdf-chairs/cadeira-executiva-mesh-alta.jpg",
+  "longarina-iso": "assets/products/pdf-chairs/longarina-iso.jpg",
+  "longarina-estofada": "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "cadeira-mocho": "assets/products/pdf-chairs/cadeira-mocho.jpg",
+  "mocho-sem-encosto": "assets/products/pdf-chairs/mocho-sem-encosto.jpg",
+  "banqueta-alta-a": "assets/products/pdf-chairs/banqueta-alta-a.jpg",
+  "banqueta-alta-b": "assets/products/pdf-chairs/banqueta-alta-b.jpg",
+  "cadeira-pe-palito": "assets/products/pdf-chairs/cadeira-pe-palito.jpg",
+  "cadeira-universitaria": "assets/products/pdf-chairs/cadeira-universitaria.jpg",
+  "conjunto-ensino-medio": "assets/products/pdf-chairs/conjunto-ensino-medio.jpg",
+  "conjunto-educacao-infantil": "assets/products/pdf-chairs/conjunto-educacao-infantil.jpg",
+  "conjunto-sextavado": "assets/products/pdf-chairs/conjunto-sextavado.jpg",
+  "conjunto-oitavado": "assets/products/pdf-chairs/conjunto-oitavado.jpg",
+  "kit-longarina-florenca-3-lugares-com-braco-individual":
+    "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "kit-longarina-florenca-3-lugares-com-braco-compartilhado":
+    "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-florenca-3-lugares-com-braco-lateral":
+    "assets/products/pdf-chairs/longarina-cromada-clara.jpg",
+  "kit-longarina-florenca-3-lugares": "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "kit-cadeira-caixa-florenca-com-braco": "assets/products/pdf-chairs/cadeira-caixa-alta.jpg",
+  "kit-cadeira-caixa-florenca-sem-braco": "assets/products/pdf-chairs/cadeira-caixa-simples.jpg",
+  "kit-cadeira-giratoria-florenca-com-relax-com-braco":
+    "assets/products/pdf-chairs/cadeira-relax.jpg",
+  "kit-cadeira-giratoria-florenca-com-braco":
+    "assets/products/pdf-chairs/cadeira-secretaria-braco.jpg",
+  "kit-cadeira-giratoria-florenca-sem-braco": "assets/products/pdf-chairs/cadeira-secretaria.jpg",
+  "kit-longarina-diretor-braco-escamoteavel-3-lugares":
+    "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-diretor-prancheta-dobravel-3-lugares":
+    "assets/products/pdf-chairs/longarina-cromada-clara.jpg",
+  "kit-longarina-executiva-braco-escamoteavel-3-lugares":
+    "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-executiva-prancheta-dobravel-3-lugares":
+    "assets/products/pdf-chairs/longarina-cromada-clara.jpg",
+  "kit-longarina-secretaria-f10-prancheta-dobravel-3-lugares":
+    "assets/products/pdf-chairs/longarina-iso.jpg",
+  "kit-longarina-diretor-3-lugares-com-braco-individual":
+    "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-diretor-3-lugares-com-braco-compartilhado":
+    "assets/products/pdf-chairs/longarina-cromada-clara.jpg",
+  "kit-longarina-diretor-3-lugares-com-braco-lateral":
+    "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-diretor-3-lugares": "assets/products/pdf-chairs/longarina-cromada-preta.jpg",
+  "kit-longarina-executiva-3-lugares-com-braco-individual":
+    "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "kit-longarina-executiva-3-lugares-com-braco-compartilhado":
+    "assets/products/pdf-chairs/longarina-cromada-clara.jpg",
+  "kit-longarina-executiva-3-lugares-com-braco-lateral":
+    "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "kit-longarina-executiva-3-lugares": "assets/products/pdf-chairs/longarina-estofada.jpg",
+  "kit-longarina-secretaria-f10-3-lugares": "assets/products/pdf-chairs/longarina-iso.jpg",
+  "kit-banqueta-clip": "assets/products/pdf-chairs/banqueta-alta-b.jpg",
+  "kit-cadeira-nova-hall-braco-dobravel": "assets/products/pdf-chairs/cadeira-hall-sapata.jpg",
+  "kit-cadeira-nova-hall-fixa": "assets/products/pdf-chairs/cadeira-hall-trapezio.jpg",
+  "kit-cadeira-hall-braco-dobravel": "assets/products/pdf-chairs/cadeira-fixa.jpg",
+  "kit-cadeira-hall-fixa": "assets/products/pdf-chairs/cadeira-fixa-iso.jpg"
 };
 
 const IMAGE_FRAME_PRESETS = {
@@ -4348,33 +4470,82 @@ const IMAGE_FRAME_PRESETS = {
     drawerPosition: "50% 42%",
     drawerScale: "1.02"
   },
-  "conjunto-ensino-medio": {
-    cardPosition: "52% 43%",
-    cardScale: "1.08",
-    drawerPosition: "50% 42%",
-    drawerScale: "1.02"
-  },
-  "conjunto-educacao-infantil": {
-    cardPosition: "52% 43%",
-    cardScale: "1.1",
-    drawerPosition: "50% 42%",
-    drawerScale: "1.04"
-  },
-  "conjunto-sextavado": {
-    cardPosition: "52% 44%",
-    cardScale: "1.1",
-    drawerPosition: "50% 42%",
-    drawerScale: "1.04"
-  },
-  "conjunto-oitavado": {
-    cardPosition: "52% 44%",
-    cardScale: "1.12",
-    drawerPosition: "50% 42%",
-    drawerScale: "1.06"
+  "cadeira-universitaria": {
+    cardPosition: "50% 50%",
+    cardScale: "0.86",
+    cardHoverScale: "0.9",
+    drawerPosition: "50% 50%",
+    drawerScale: "0.88",
+    cardFit: "contain",
+    drawerFit: "contain",
+    cardPadding: "20px",
+    drawerPadding: "24px",
+    surface: "rgba(255,255,255,0.98)"
   }
 };
 
 function getImageFrame(product) {
+  if (IMAGE_FRAME_PRESETS[product.id]) {
+    return IMAGE_FRAME_PRESETS[product.id];
+  }
+
+  if (product.category === "cadeiras") {
+    if (product.id.includes("longarina")) {
+      return {
+        cardPosition: "50% 50%",
+        cardScale: "0.9",
+        cardHoverScale: "0.94",
+        drawerPosition: "50% 50%",
+        drawerScale: "0.92",
+        cardFit: "contain",
+        drawerFit: "contain",
+        cardPadding: "18px",
+        drawerPadding: "22px",
+        surface: "rgba(255,255,255,0.98)"
+      };
+    }
+
+    if (
+      ["cadeira-mocho", "mocho-sem-encosto", "banqueta-alta-a", "banqueta-alta-b"].includes(product.id) ||
+      product.id.includes("caixa")
+    ) {
+      return {
+        cardPosition: "50% 50%",
+        cardScale: "0.86",
+        cardHoverScale: "0.9",
+        drawerPosition: "50% 50%",
+        drawerScale: "0.88",
+        cardFit: "contain",
+        drawerFit: "contain",
+        cardPadding: "18px",
+        drawerPadding: "22px",
+        surface: "rgba(255,255,255,0.98)"
+      };
+    }
+
+    return {
+      cardPosition: "50% 50%",
+      cardScale: "0.84",
+      cardHoverScale: "0.88",
+      drawerPosition: "50% 50%",
+      drawerScale: "0.86",
+      cardFit: "contain",
+      drawerFit: "contain",
+      cardPadding: "18px",
+      drawerPadding: "22px",
+      surface: "rgba(255,255,255,0.98)"
+    };
+  }
+
+  if (product.category === "escolar" && product.id.startsWith("conjunto-")) {
+    return {
+      cardPosition: "50% 52%",
+      cardScale: "1.12",
+      drawerPosition: "50% 50%",
+      drawerScale: "1.06"
+    };
+  }
+
   return IMAGE_FRAME_PRESETS[product.id] || null;
 }
 
@@ -4394,30 +4565,148 @@ function buildImageStyleAttribute(product, context = "card") {
   const hoverScale = isDrawer
     ? scale
     : frame.cardHoverScale || String(Number(scale) + 0.04);
+  const fit = isDrawer
+    ? frame.drawerFit || frame.cardFit || "cover"
+    : frame.cardFit || "cover";
+  const padding = isDrawer
+    ? frame.drawerPadding || frame.cardPadding || "0px"
+    : frame.cardPadding || "0px";
+  const surface = frame.surface || "transparent";
 
-  return `style="--media-position:${position}; --media-scale:${scale}; --media-hover-scale:${hoverScale};"`;
+  return `style="--media-position:${position}; --media-scale:${scale}; --media-hover-scale:${hoverScale}; --media-fit:${fit}; --media-padding:${padding}; --media-surface:${surface};"`;
+}
+
+const DISPLAY_TEXT_REPLACEMENTS = [
+  [/Floren\?a/g, "Floren\u00e7a"],
+  [/Dimens\?es/g, "Dimens\u00f5es"],
+  [/Dimens\?o/g, "Dimens\u00e3o"],
+  [/varia\?\?es/g, "varia\u00e7\u00f5es"],
+  [/dispon\?veis/g, "dispon\u00edveis"],
+  [/Recep\?\?o/g, "Recep\u00e7\u00e3o"],
+  [/Acess\?rios t\?cnicos/g, "Acess\u00f3rios t\u00e9cnicos"],
+  [/\bRetratil\b/g, "Retr\u00e1til"],
+  [/\bescamoteavel\b/g, "escamote\u00e1vel"],
+  [/\bEscamoteavel\b/g, "Escamote\u00e1vel"],
+  [/\bGiratoria\b/g, "Girat\u00f3ria"],
+  [/\bNobreack\b/g, "Nobreak"]
+];
+
+const PRODUCT_CATEGORY_OVERRIDES = {
+  "kit-gavetao-small-corredica-telescopica": "mdf",
+  "mesa-de-apoio-pratika-25mm-com-armario-misto": "mesas",
+  "mesa-de-apoio-pratika-25mm-com-gaveteiro-4-gavetas": "mesas",
+  "mesa-de-apoio-pratika-25mm-com-gaveteiro-misto": "mesas",
+  "mesa-pratika-acoplada-gaveteiro-4-gavetas-25mm": "mesas",
+  "mesa-pratika-acoplada-gaveteiro-misto-25mm": "mesas"
+};
+
+const PRODUCT_SECTION_OVERRIDES = {
+  "mesa-em-l": "Mesas de trabalho",
+  "mesa-impressora": "Mesas de trabalho",
+  "mesa-base": "Mesas de trabalho",
+  "mesa-professor": "Mesas de trabalho",
+  "mesa-happy": "Mesas de trabalho",
+  "mesa-pratica": "Mesas de trabalho",
+  "mesa-reuniao-oval": "Mesas de reuni\u00e3o",
+  "mesa-reuniao-retangular-base": "Mesas de reuni\u00e3o",
+  "mesa-redonda": "Mesas de reuni\u00e3o",
+  "mesa-escritorio-angular": "Mesas em L e acopladas",
+  "mesa-happy-em-l": "Mesas em L e acopladas",
+  "mesa-diretor-em-l": "Mesas em L e acopladas",
+  "mesa-plataforma-dupla": "Mesas em L e acopladas",
+  "conjunto-em-l-gm": "Mesas em L e acopladas",
+  "guiche-atendimento": "Atendimento e recep\u00e7\u00e3o",
+  "smart-04-moveis-fortline": "Atendimento e recep\u00e7\u00e3o",
+  "escrivaninha-politorno": "Escrivaninhas e home office",
+  "conjunto-duas-gavetas": "Acess\u00f3rios e m\u00f3dulos",
+  "suporte-teclado": "Acess\u00f3rios e m\u00f3dulos",
+  "carrinho-cpu": "Acess\u00f3rios e m\u00f3dulos",
+  "conexao-90": "Acess\u00f3rios e m\u00f3dulos",
+  "estacao-conexao": "Acess\u00f3rios e m\u00f3dulos",
+  "tomada-mesa-pratika": "Acess\u00f3rios e m\u00f3dulos",
+  "kit-gavetao-small-corredica-telescopica": "Linha Small"
+};
+
+function normalizeDisplayText(value) {
+  if (typeof value !== "string") {
+    return value;
+  }
+
+  return DISPLAY_TEXT_REPLACEMENTS.reduce(
+    (text, [pattern, replacement]) => text.replace(pattern, replacement),
+    value
+  );
+}
+
+function normalizeProductCopy(product) {
+  if (PRODUCT_CATEGORY_OVERRIDES[product.id]) {
+    product.category = PRODUCT_CATEGORY_OVERRIDES[product.id];
+  }
+
+  if (PRODUCT_SECTION_OVERRIDES[product.id]) {
+    product.section = PRODUCT_SECTION_OVERRIDES[product.id];
+  }
+
+  if (product.section) {
+    product.section = normalizeDisplayText(product.section);
+  }
+
+  product.name = normalizeDisplayText(product.name);
+
+  if (product.summary) {
+    product.summary = normalizeDisplayText(product.summary);
+  }
+
+  if (product.specs) {
+    product.specs = product.specs.map(([label, value]) => [
+      normalizeDisplayText(label),
+      normalizeDisplayText(value)
+    ]);
+  }
+
+  ["notes", "options", "colors", "tags"].forEach((field) => {
+    if (product[field]) {
+      product[field] = product[field].map((entry) => normalizeDisplayText(entry));
+    }
+  });
 }
 
 function getRepresentativeProductImage(product) {
   const id = product.id;
+  const tableImageById = {
+    "mesa-em-l": REFERENCE_PRODUCT_MEDIA.lDeskSlim,
+    "mesa-escritorio-angular": REFERENCE_PRODUCT_MEDIA.lDeskWood,
+    "mesa-happy-em-l": REFERENCE_PRODUCT_MEDIA.lDeskSlim,
+    "mesa-diretor-em-l": REFERENCE_PRODUCT_MEDIA.lDesk,
+    "conjunto-em-l-gm": REFERENCE_PRODUCT_MEDIA.lDeskWood,
+    "mesa-impressora": REFERENCE_PRODUCT_MEDIA.compactDesk,
+    "mesa-base": REFERENCE_PRODUCT_MEDIA.lightDesk15,
+    "mesa-tecnomobili": REFERENCE_PRODUCT_MEDIA.supportDeskMetal || REFERENCE_PRODUCT_MEDIA.homeDesk,
+    "mesa-professor": REFERENCE_PRODUCT_MEDIA.desk,
+    "mesa-happy": REFERENCE_PRODUCT_MEDIA.happyDesk30,
+    "mesa-pratica": REFERENCE_PRODUCT_MEDIA.meetingRectPratika || REFERENCE_PRODUCT_MEDIA.straightDeskPratika,
+    "guiche-atendimento": REFERENCE_PRODUCT_MEDIA.supportDeskMetal || REFERENCE_PRODUCT_MEDIA.supportDeskHappyCabinet || REFERENCE_PRODUCT_MEDIA.supportDeskCabinet,
+    "mesa-reuniao-oval": REFERENCE_PRODUCT_MEDIA.meetingRoundHappy || REFERENCE_PRODUCT_MEDIA.meetingRoundEiffel,
+    "mesa-reuniao-retangular-base": REFERENCE_PRODUCT_MEDIA.meetingRect15,
+    "mesa-reuniao-corporativa": REFERENCE_PRODUCT_MEDIA.meetingRectHappy || REFERENCE_PRODUCT_MEDIA.meetingRectPanel,
+    "mesa-redonda": REFERENCE_PRODUCT_MEDIA.meetingRound15,
+    "mesa-redonda-pratika": REFERENCE_PRODUCT_MEDIA.meetingRoundPratika,
+    "mesa-reuniao-retangular-pratika": REFERENCE_PRODUCT_MEDIA.meetingRectPratika,
+    "escrivaninha-arbete-2gv": REFERENCE_PRODUCT_MEDIA.supportDeskHappyDrawer || REFERENCE_PRODUCT_MEDIA.supportDeskDrawer,
+    "escrivaninha-computador-notebook": REFERENCE_PRODUCT_MEDIA.homeDesk,
+    "escrivaninha-4-gavetas": REFERENCE_PRODUCT_MEDIA.supportDeskDrawer,
+    "mesa-plataforma-dupla": REFERENCE_PRODUCT_MEDIA.attachedDesk,
+    "smart-04-moveis-fortline": REFERENCE_PRODUCT_MEDIA.supportDeskHappyCabinet || REFERENCE_PRODUCT_MEDIA.supportDeskCabinet,
+    "escrivaninha-politorno": REFERENCE_PRODUCT_MEDIA.supportDeskHappyMixed || REFERENCE_PRODUCT_MEDIA.supportDeskMixed
+  };
 
   if (id === "tomada-mesa-pratika") return REFERENCE_PRODUCT_MEDIA.power;
-  if (id === "carrinho-cpu") return REFERENCE_PRODUCT_MEDIA.cpuSupport;
-  if (id === "conexao-90" || id === "estacao-conexao") return REFERENCE_PRODUCT_MEDIA.connection;
-  if (id === "suporte-teclado") return REFERENCE_PRODUCT_MEDIA.gamerDesk;
-  if (id === "conjunto-duas-gavetas") return REFERENCE_PRODUCT_MEDIA.drawer2;
-
-  if (
-    [
-      "mesa-em-l",
-      "mesa-escritorio-angular",
-      "mesa-happy-em-l",
-      "mesa-diretor-em-l",
-      "conjunto-em-l-gm"
-    ].includes(id)
-  ) {
-    return REFERENCE_PRODUCT_MEDIA.lDesk;
-  }
+  if (id === "carrinho-cpu") return REFERENCE_PRODUCT_MEDIA.cpuSupportFloor || REFERENCE_PRODUCT_MEDIA.cpuSupport;
+  if (id === "conexao-90") return REFERENCE_PRODUCT_MEDIA.connectionAngled || REFERENCE_PRODUCT_MEDIA.connection;
+  if (id === "estacao-conexao") return REFERENCE_PRODUCT_MEDIA.connection;
+  if (id === "suporte-teclado") return REFERENCE_PRODUCT_MEDIA.keyboardTray || REFERENCE_PRODUCT_MEDIA.gamerDesk;
+  if (id === "conjunto-duas-gavetas") return REFERENCE_PRODUCT_MEDIA.drawer2Slim || REFERENCE_PRODUCT_MEDIA.drawer2;
+  if (tableImageById[id]) return tableImageById[id];
 
   if (
     [
@@ -4526,7 +4815,7 @@ function getRepresentativeProductImage(product) {
       "arquivo-4g-mdf"
     ].includes(id)
   ) {
-    return REFERENCE_PRODUCT_MEDIA.fileCabinet;
+    return REFERENCE_PRODUCT_MEDIA.fileCabinet || REFERENCE_PRODUCT_MEDIA.fileCabinetSlim;
   }
 
   if (
@@ -4536,8 +4825,8 @@ function getRepresentativeProductImage(product) {
     ].includes(id)
   ) {
     return id === "gaveteiro-volante-4g"
-      ? REFERENCE_PRODUCT_MEDIA.drawer4
-      : REFERENCE_PRODUCT_MEDIA.drawer3;
+      ? REFERENCE_PRODUCT_MEDIA.drawer4Slim || REFERENCE_PRODUCT_MEDIA.drawerEconomy || REFERENCE_PRODUCT_MEDIA.drawer4
+      : REFERENCE_PRODUCT_MEDIA.drawer3 || REFERENCE_PRODUCT_MEDIA.drawerMixedSlim;
   }
 
   if (
@@ -4546,7 +4835,9 @@ function getRepresentativeProductImage(product) {
       "armario-semi-aberto"
     ].includes(id)
   ) {
-    return REFERENCE_PRODUCT_MEDIA.lowCabinet;
+    return id === "armario-semi-aberto"
+      ? REFERENCE_PRODUCT_MEDIA.semiOpenCabinet || REFERENCE_PRODUCT_MEDIA.mediumCabinet || REFERENCE_PRODUCT_MEDIA.lowCabinet
+      : REFERENCE_PRODUCT_MEDIA.lowCabinetExact || REFERENCE_PRODUCT_MEDIA.lowCabinet;
   }
 
   if (
@@ -4554,7 +4845,7 @@ function getRepresentativeProductImage(product) {
       "armario-fechado"
     ].includes(id)
   ) {
-    return REFERENCE_PRODUCT_MEDIA.tallCabinet;
+    return REFERENCE_PRODUCT_MEDIA.cabinetSuperTall || REFERENCE_PRODUCT_MEDIA.tallCabinet || REFERENCE_PRODUCT_MEDIA.tallCabinetExact;
   }
 
   if (product.category === "mdf") {
@@ -4602,8 +4893,13 @@ function getRepresentativeProductImage(product) {
 }
 
 PRODUCTS.forEach((product) => {
+  normalizeProductCopy(product);
+
   if (!product.image) {
-    product.image = SITE_PRODUCT_MEDIA[product.id] || getRepresentativeProductImage(product);
+    product.image =
+      PDF_PRODUCT_MEDIA[product.id] ||
+      SITE_PRODUCT_MEDIA[product.id] ||
+      getRepresentativeProductImage(product);
   }
 
   if (product.image) {

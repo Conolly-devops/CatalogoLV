@@ -3,9 +3,17 @@ Thumbs.db
 desktop.ini
 
 .edge-pdf-preview/
+.edge-pdf-temp/
 catalog-check.png
 edge-dom.txt
 
 collections_*.html
+tmp-*.json
+tmp-*.txt
 tmp-*.html
 tmp-*.js
+tmp-*.png
+tmp-pdf-images/
+assets/products/pdf-chairs/*.jpg.__tmp.jpg
+assets/products/pdf-chairs/*-rebuild.jpg
+assets/products/pdf-chairs/*-upscaled.jpg
